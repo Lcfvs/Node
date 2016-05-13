@@ -361,6 +361,7 @@ directory.  For example, if there was no package.json file in the above
 example, then `require('./some-library')` would attempt to load:
 
 * `./some-library/index.js`
+* `./some-library/index.json`
 * `./some-library/index.node`
 
 ## Loading from `node_modules` Folders
